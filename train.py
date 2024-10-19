@@ -29,7 +29,7 @@ class ClassicTransformer(nn.Module):
 file_path = 'data\\FC\\FC3_I4.csv'
 w = 36  # 模型输入序列长度
 length_size = 36  # 预测结果的序列长度
-e = 40  # 迭代次数
+e = 400  # 迭代次数
 batch_size = 256  # 批量大小
 
 # 读取数据
